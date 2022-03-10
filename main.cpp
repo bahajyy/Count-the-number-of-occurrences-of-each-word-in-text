@@ -66,7 +66,7 @@ LinkList<string> readFile(string path)
     {
         string temp=sentences[i];
         string newWord="";
-        for (auto x:temp) // I found this code in geeksforgeeks its split a sentence in to words
+        for (auto x:temp) 
         {
             if (x == ' '){
                 words[count]= stripAndNormalize(newWord);
